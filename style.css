@@ -1,3 +1,9 @@
+@font-face {
+  font-family: temp;
+  src: url(./TEMPSITC.woff2);
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -21,7 +27,7 @@ h1{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: Tempus Sans ITC;
+  font-family: temp;
   font-size: 150px;
   color: #fff;
   mix-blend-mode: difference;
